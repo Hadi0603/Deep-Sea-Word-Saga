@@ -3723,7 +3723,7 @@ MonoBehaviour:
   levelWin: {fileID: 352663270}
   lostUI: {fileID: 1474527424}
   timerText: {fileID: 473284869}
-  gameTime: 20
+  gameTime: 10
   questionData: {fileID: 11400000, guid: 987c209f74ebb2849bd9dfc1779b7a77, type: 2}
   answerWordArray:
   - {fileID: 7365132579975426312}
