@@ -1,0 +1,7 @@
+NAME : Word Pair Hunt
+Company/Keystore : WPH
+Keystore Alias : wph
+KEYSTORE PASSWORD : airi@1234
+PACKAGE NAME : com.wph.wordpairhunt
+VERSION 1.0
+BUNDLE VERISON 1
