@@ -236,6 +236,7 @@ public void SelectedOption(WordsData wordsData)
             PlayerPrefs.SetInt("levelToLoad",++GameController.levelToLoad);
             PlayerPrefs.Save();
             correctWordText.gameObject.SetActive(true);
+            pauseBtn.SetActive(false);
             if (levelTimerCoroutine != null)
             {
                 StopCoroutine(levelTimerCoroutine);
@@ -246,7 +247,7 @@ public void SelectedOption(WordsData wordsData)
             gameStatus = GameStatus.Next;
 
             currentQuestionIndex++;
-            Invoke("SetQuestion", 1f);  // Move to the next word after completion
+            Invoke("SetQuestion", 2f);  // Move to the next word after completion
         }
         else
         {
